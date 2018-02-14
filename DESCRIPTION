@@ -1,9 +1,17 @@
 Package: Package4
-Title: What the Package Does (one line, title case)
+Title: This is a package to explore and work through creating a package
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: c(
+    person("Nicholas", "Lauernman", email = "first.last@example.com", role = c("aut", "cre", "cph")),
+    person("Kim", "Lauernman", email = "other.last@example.com", role = c("aut")))
+Description: This package roles a 6 side dice or returnes the sum of roling
+    two six sided dice.
 Depends: R (>= 3.4.3)
-License: What license is it under?
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Imports: tidyverse (>= 1.2.1),
+    lubridate (>= 1.7.1)
+URL: none
+BugReports: none
+RoxygenNote: 6.0.1
