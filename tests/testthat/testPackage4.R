@@ -24,7 +24,13 @@ test_that("non-numeric values", {
 context("dice number in range")
 
 test_that("returns number in range", {
-     x <- dice()
-     expect_true((x >= 1) & (x <= 6))
+     roll <- dice()
+     expect_true((roll >= 1) & (roll <= 6))
      })
 
+context("d6Twice in range")
+
+test_that("in range", {
+     rolls <- d6Twice()
+     expect_true((rolls >= 2) & (rolls <= 12))
+})
