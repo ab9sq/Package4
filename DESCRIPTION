@@ -12,8 +12,10 @@ License: file LICENSE
 YEAR: 2018
 Encoding: UTF-8
 LazyData: true
-Imports: tidyverse (>= 1.2.1),
-    lubridate (>= 1.7.1)
-URL: none
-BugReports: none
+Imports:  stats
+URL: https://github.com/ab9sq/Package4
+BugReports: https://github.com/ab9sq/Package4/issues
 RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
