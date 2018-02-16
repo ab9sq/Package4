@@ -23,10 +23,13 @@
 dice <- function(sides = 6) {
      # error checks
      if (is.null(sides)){
-          stop(print("Dice must have 2 or more sides"))
+          stop("Value must be a number greater than or equal to 2")
      }
      if (((sides < 2)) | (is.na(sides))) {
-          stop(print("Dice must have 2 or more sides"))
+          stop("Dice must have 2 or more sides")
+     }
+     if (!is.numeric(sides)){
+          stop("Value must be a number greater than or equal to 2")
      }
      # functions work
      sides <- as.integer(sides)
