@@ -4,8 +4,9 @@ Version: 0.0.0.9000
 Authors@R: c(
     person("Nicholas", "Lauernman", email = "first.last@example.com", role = c("aut", "cre", "cph")),
     person("Kim", "Lauernman", email = "other.last@example.com", role = c("aut")))
-Description: This package roles a 6 side dice or returnes the sum of roling
-    two six sided dice.
+Description: The two functions in this package are a dice function that returns
+    simulates a roll of a single dice of N sides (where N -s greater than 1). The second
+    is a simulation of rolling two six sided dice and returning the sum.
 Depends: R (>= 3.4.3)
 License: file LICENSE
 YEAR: 2018

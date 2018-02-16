@@ -12,8 +12,8 @@ The package provides two functions \code{dice} and
 \section{RpackageLearn functions}{
 
 
-\link{dice} which simulates a single throw of a six sided dice
+\link{dice} which simulates a single throw of an N sided dice
 
-\link{d6Twice} which provides the sum of dice twice.
+\link{d6Twice} which provides the sum of two six sided dice.
 }
 
