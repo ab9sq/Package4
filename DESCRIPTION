@@ -2,17 +2,17 @@ Package: Package4
 Title: This is a package to explore and work through creating a package
 Version: 0.0.0.9000
 Authors@R: c(
-    person("Nicholas", "Lauernman", email = "first.last@example.com", role = c("aut", "cre", "cph")),
+    person("Nicholas", "Lauernman", email = "nicholas.lauerman@gmail.com", role = c("aut", "cre", "cph")),
     person("Kim", "Lauernman", email = "other.last@example.com", role = c("aut")))
 Description: The two functions in this package are a dice function that returns
     simulates a roll of a single dice of N sides (where N -s greater than 1). The second
     is a simulation of rolling two six sided dice and returning the sum.
 Depends: R (>= 3.4.3)
-License: file LICENSE
+License: GPL-3 + file LICENSE
 YEAR: 2018
 Encoding: UTF-8
 LazyData: true
-Imports:  stats
+Imports: stats
 URL: https://github.com/ab9sq/Package4
 BugReports: https://github.com/ab9sq/Package4/issues
 RoxygenNote: 6.0.1
