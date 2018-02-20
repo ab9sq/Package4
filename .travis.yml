@@ -6,3 +6,10 @@ r:
   - devel
 cache: packages
 sudo: false
+notifications:
+  email:
+     recipients:
+        - nicholas.lauerman@gmail.com
+        - nick.lauerman@abbott.com
+     on_success: always
+     on_failure: always

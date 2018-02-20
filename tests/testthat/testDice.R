@@ -1,5 +1,3 @@
-library("Package4")
-
 context("dice error handling")
 
 test_that("handling of NA", {
@@ -28,9 +26,3 @@ test_that("returns number in range", {
      expect_true((roll >= 1) & (roll <= 6))
      })
 
-context("d6Twice in range")
-
-test_that("in range", {
-     rolls <- d6Twice()
-     expect_true((rolls >= 2) & (rolls <= 12))
-})
