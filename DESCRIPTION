@@ -9,7 +9,7 @@ Description: The two functions in this package are a dice function that returns
     is a simulation of rolling two six sided dice and returning the sum.
 Depends: R (>= 3.3)
 License: GPL-3 + file LICENSE
-YEAR: 2018
+Date: 2018-02-20
 Encoding: UTF-8
 LazyData: true
 Imports: stats
