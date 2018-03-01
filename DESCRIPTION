@@ -1,6 +1,6 @@
 Package: Package4
 Title: This is a package to explore and work through creating a package
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: c(
     person("Nicholas", "Lauernman", email = "nicholas.lauerman@gmail.com", role = c("aut", "cre", "cph")),
     person("Kim", "Lauernman", email = "other.last@example.com", role = c("aut")))
