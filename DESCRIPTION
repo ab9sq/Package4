@@ -1,18 +1,22 @@
 Package: Package4
 Title: This is a package to explore and work through creating a package
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: c(
-    person("Nicholas", "Lauernman", email = "first.last@example.com", role = c("aut", "cre", "cph")),
+    person("Nicholas", "Lauernman", email = "nicholas.lauerman@gmail.com", role = c("aut", "cre", "cph")),
     person("Kim", "Lauernman", email = "other.last@example.com", role = c("aut")))
-Description: This package roles a 6 side dice or returnes the sum of roling
-    two six sided dice.
-Depends: R (>= 3.4.3)
-License: GPL-3
-YEAR: 2018
+Description: The two functions in this package are a dice function that returns
+    simulates a roll of a single dice of N sides (where N -s greater than 1). The second
+    is a simulation of rolling two six sided dice and returning the sum.
+Depends: R (>= 3.3)
+License: GPL-3 + file LICENSE
+Date: 2018-02-20
 Encoding: UTF-8
 LazyData: true
-Imports: tidyverse (>= 1.2.1),
-    lubridate (>= 1.7.1)
-URL: none
-BugReports: none
+Imports: stats
+URL: https://github.com/ab9sq/Package4
+BugReports: https://github.com/ab9sq/Package4/issues
 RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
