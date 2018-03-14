@@ -13,3 +13,7 @@ test_that("errors returned", {
      expect_error(d6Twice(NA))
      expect_error(d6Twice(NULL))
 })
+
+test_that("returns no messages", {
+     expect_silent(d6Twice())
+})

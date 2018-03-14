@@ -19,6 +19,10 @@ test_that("non-numeric values", {
      expect_error(dice("6"))
 })
 
+test_that("returns no messages", {
+     expect_silent(dice())
+})
+
 context("dice number in range")
 
 test_that("returns number in range", {
