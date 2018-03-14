@@ -25,7 +25,7 @@ dice <- function(sides = 6) {
      if (is.null(sides)){
           stop("Value must be a number greater than or equal to 2")
      }
-     if (((sides < 2)) | (is.na(sides))) {
+     if ( ( (sides < 2)) | (is.na(sides))) {
           stop("Dice must have 2 or more sides")
      }
      if (!is.numeric(sides)){
