@@ -11,7 +11,8 @@
 #' @param sides The number of sides on the dice to roll. Traditionally the values
 #' are 4, 6 \strong{default}, 8, 12, 20, and 100, with six being the most common.
 #' The value should be an interger of value greater than or equal to 2.
-#'#'
+#'
+#'
 #' @return A random interger with a value between 1 and N inclusive.
 #'
 #' @examples
