@@ -18,10 +18,6 @@ of rolling two six sided dice.
 this function returns an interger between 1 and 6 thus \code{d6Twice} will
 return a value of 2 to 12 that is not uniformly distrubited. The most common
 value returned will be 7 with the least being 2 and 12.
-
-Because \code{d6Twice} utilized the \link{dice} function the \link[base]{set.seed}
-function can be utilized for repearablity. This will effect the "random" nature
-of the dice rolls so it should be used with caution.
 }
 \examples{
 d6Twice()
