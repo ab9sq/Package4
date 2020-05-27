@@ -5,7 +5,8 @@
 #'
 #' @section RpackageLearn functions:
 #'
-#' \link{dice} which simulates a single throw of an N sided dice
+#' \link{dice} which simulates a single throw of an N sided dice. The default is
+#' a standard six (6) sided dice. Dice must have a minuman of 2 sides (a coin).
 #'
 #' \link{d6Twice} which provides the sum of two six sided dice.
 #'

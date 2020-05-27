@@ -15,7 +15,7 @@ LazyData: true
 Imports: stats
 URL: https://github.com/ab9sq/Package4
 BugReports: https://github.com/ab9sq/Package4/issues
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
 Suggests: knitr,
     rmarkdown,
     testthat
